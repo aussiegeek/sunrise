@@ -1,0 +1,13 @@
+{
+  "camelcase": true,
+  "curly": true,
+  "quotmark": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "browser": true,
+  "jquery": true,
+  "globals": {
+    "angular": false
+  }
+}

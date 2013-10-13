@@ -1,0 +1,15 @@
+<div ng-hide="coords">
+    Setting location...
+</div>
+
+
+<dl>
+    <dt>Longitude</dt>
+    <dd>{{coords.longitude}}</dd>
+    <dt>Latitude</dt>
+    <dd>{{coords.latitude}}</dd>
+    <dt>Sunrise</dt>
+    <dd>{{sunrise.sunrise|moment:'h:mm A'}}</dd>
+    <dt>Sunset</dt>
+    <dd>{{sunrise.sunset|moment:'h:mm A'}}</dd>
+</dl>
